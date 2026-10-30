@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="553" failures="1" errors="0" time="177.194">
+  <testsuite name="Conversation Utilities" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:56:18" time="22.689" tests="36">
+    <testcase classname="Conversation Utilities groupConversationsByDate groups conversations by date correctly" name="Conversation Utilities groupConversationsByDate groups conversations by date correctly" time="0.034">
+    </testcase>
+    <testcase classname="Conversation Utilities groupConversationsByDate skips conversations with duplicate conversationIds" name="Conversation Utilities groupConversationsByDate skips conversations with duplicate conversationIds" time="0.009">
+    </testcase>
+    <testcase classname="Conversation Utilities groupConversationsByDate sorts conversations by month correctly" name="Conversation Utilities groupConversationsByDate sorts conversations by month correctly" time="0.007">
+    </testcase>
+    <testcase classname="Conversation Utilities groupConversationsByDate handles conversations from multiple years correctly" name="Conversation Utilities groupConversationsByDate handles conversations from multiple years correctly" time="0.004">
+    </testcase>
+    <testcase classname="Conversation Utilities groupConversationsByDate handles conversations from the same month correctly" name="Conversation Utilities groupConversationsByDate handles conversations from the same month correctly" time="0.006">
+    </testcase>
+    <testcase classname="Conversation Utilities groupConversationsByDate handles conversations with null or undefined updatedAt correctly" name="Conversation Utilities groupConversationsByDate handles conversations with null or undefined updatedAt correctly" time="0.002">
+    </testcase>
+    <testcase classname="Conversation Utilities groupConversationsByDate correctly groups and sorts conversations for every month of the year" name="Conversation Utilities groupConversationsByDate correctly groups and sorts conversations for every month of the year" time="0.006">
+    </testcase>
+    <testcase classname="Conversation Utilities normalizeConversationData normalizes the number of items on each page after data removal" name="Conversation Utilities normalizeConversationData normalizes the number of items on each page after data removal" time="0.012">
+    </testcase>
+    <testcase classname="Conversation Utilities normalizeConversationData normalizes the number of items on each page after data addition" name="Conversation Utilities normalizeConversationData normalizes the number of items on each page after data addition" time="0.005">
+    </testcase>
+    <testcase classname="Conversation Utilities normalizeConversationData returns empty data when there is no data" name="Conversation Utilities normalizeConversationData returns empty data when there is no data" time="0.002">
+    </testcase>
+    <testcase classname="Conversation Utilities normalizeConversationData does not normalize data when not needed" name="Conversation Utilities normalizeConversationData does not normalize data when not needed" time="0.001">
+    </testcase>
+    <testcase classname="Conversation Utilities normalizeConversationData deletes pages that have no data as a result of normalization" name="Conversation Utilities normalizeConversationData deletes pages that have no data as a result of normalization" time="0.013">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers findConversationInInfinite finds a conversation by id in InfiniteData" name="Conversation Utilities InfiniteData helpers findConversationInInfinite finds a conversation by id in InfiniteData" time="0.002">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers findConversationInInfinite returns undefined if conversation not found" name="Conversation Utilities InfiniteData helpers findConversationInInfinite returns undefined if conversation not found" time="0.001">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers findConversationInInfinite returns undefined if data is undefined" name="Conversation Utilities InfiniteData helpers findConversationInInfinite returns undefined if data is undefined" time="0">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers updateInfiniteConvoPage updates a conversation in InfiniteData" name="Conversation Utilities InfiniteData helpers updateInfiniteConvoPage updates a conversation in InfiniteData" time="0.002">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers updateInfiniteConvoPage returns original data if conversation not found" name="Conversation Utilities InfiniteData helpers updateInfiniteConvoPage returns original data if conversation not found" time="0.002">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers updateInfiniteConvoPage returns undefined if data is undefined" name="Conversation Utilities InfiniteData helpers updateInfiniteConvoPage returns undefined if data is undefined" time="0.001">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers addConversationToInfinitePages adds a conversation to the first page" name="Conversation Utilities InfiniteData helpers addConversationToInfinitePages adds a conversation to the first page" time="0.001">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers addConversationToInfinitePages creates new InfiniteData if data is undefined" name="Conversation Utilities InfiniteData helpers addConversationToInfinitePages creates new InfiniteData if data is undefined" time="0.003">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers removeConvoFromInfinitePages removes a conversation by id" name="Conversation Utilities InfiniteData helpers removeConvoFromInfinitePages removes a conversation by id" time="0.003">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers removeConvoFromInfinitePages removes empty pages after deletion" name="Conversation Utilities InfiniteData helpers removeConvoFromInfinitePages removes empty pages after deletion" time="0.001">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers removeConvoFromInfinitePages returns original data if data is undefined" name="Conversation Utilities InfiniteData helpers removeConvoFromInfinitePages returns original data if data is undefined" time="0.001">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers updateConvoFieldsInfinite updates fields and bumps to front if keepPosition is false" name="Conversation Utilities InfiniteData helpers updateConvoFieldsInfinite updates fields and bumps to front if keepPosition is false" time="0.002">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers updateConvoFieldsInfinite updates fields and keeps position if keepPosition is true" name="Conversation Utilities InfiniteData helpers updateConvoFieldsInfinite updates fields and keeps position if keepPosition is true" time="0.001">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers updateConvoFieldsInfinite returns original data if conversation not found" name="Conversation Utilities InfiniteData helpers updateConvoFieldsInfinite returns original data if conversation not found" time="0.001">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers updateConvoFieldsInfinite returns original data if data is undefined" name="Conversation Utilities InfiniteData helpers updateConvoFieldsInfinite returns original data if data is undefined" time="0">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers storeEndpointSettings stores model for endpoint" name="Conversation Utilities InfiniteData helpers storeEndpointSettings stores model for endpoint" time="0.005">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers storeEndpointSettings stores secondaryModel for gptPlugins endpoint" name="Conversation Utilities InfiniteData helpers storeEndpointSettings stores secondaryModel for gptPlugins endpoint" time="0.008">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers storeEndpointSettings does nothing if conversation is null" name="Conversation Utilities InfiniteData helpers storeEndpointSettings does nothing if conversation is null" time="0.002">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers storeEndpointSettings does nothing if endpoint is missing" name="Conversation Utilities InfiniteData helpers storeEndpointSettings does nothing if endpoint is missing" time="0.001">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers QueryClient helpers addConvoToAllQueries adds new on top if not present" name="Conversation Utilities InfiniteData helpers QueryClient helpers addConvoToAllQueries adds new on top if not present" time="0.014">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers QueryClient helpers addConvoToAllQueries does not duplicate" name="Conversation Utilities InfiniteData helpers QueryClient helpers addConvoToAllQueries does not duplicate" time="0.005">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers QueryClient helpers updateConvoInAllQueries updates correct convo" name="Conversation Utilities InfiniteData helpers QueryClient helpers updateConvoInAllQueries updates correct convo" time="0.008">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers QueryClient helpers removeConvoFromAllQueries deletes conversation" name="Conversation Utilities InfiniteData helpers QueryClient helpers removeConvoFromAllQueries deletes conversation" time="0.002">
+    </testcase>
+    <testcase classname="Conversation Utilities InfiniteData helpers QueryClient helpers addConversationToAllConversationsQueries works with multiple pages" name="Conversation Utilities InfiniteData helpers QueryClient helpers addConversationToAllConversationsQueries works with multiple pages" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="createChatSearchParams" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:56:41" time="1.385" tests="27">
+    <testcase classname="createChatSearchParams conversation inputs handles basic conversation properties" name="createChatSearchParams conversation inputs handles basic conversation properties" time="0.008">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs applies only the endpoint property when other conversation fields are absent" name="createChatSearchParams conversation inputs applies only the endpoint property when other conversation fields are absent" time="0.011">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs applies only the model property when other conversation fields are absent" name="createChatSearchParams conversation inputs applies only the model property when other conversation fields are absent" time="0.007">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs includes assistant_id when endpoint is assistants" name="createChatSearchParams conversation inputs includes assistant_id when endpoint is assistants" time="0.002">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs includes agent_id when endpoint is agents" name="createChatSearchParams conversation inputs includes agent_id when endpoint is agents" time="0.006">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs excludes all parameters except assistant_id when endpoint is assistants" name="createChatSearchParams conversation inputs excludes all parameters except assistant_id when endpoint is assistants" time="0.003">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs excludes all parameters except agent_id when endpoint is agents" name="createChatSearchParams conversation inputs excludes all parameters except agent_id when endpoint is agents" time="0.002">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs returns empty params when agent endpoint has no agent_id" name="createChatSearchParams conversation inputs returns empty params when agent endpoint has no agent_id" time="0.003">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs returns empty params when assistants endpoint has no assistant_id" name="createChatSearchParams conversation inputs returns empty params when assistants endpoint has no assistant_id" time="0.001">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs ignores agent_id when it matches EPHEMERAL_AGENT_ID" name="createChatSearchParams conversation inputs ignores agent_id when it matches EPHEMERAL_AGENT_ID" time="0.001">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs handles stop arrays correctly by joining with commas" name="createChatSearchParams conversation inputs handles stop arrays correctly by joining with commas" time="0.005">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs filters out non-supported array properties" name="createChatSearchParams conversation inputs filters out non-supported array properties" time="0.002">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs includes empty arrays in output params" name="createChatSearchParams conversation inputs includes empty arrays in output params" time="0.002">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs handles non-stop arrays correctly in paramMap" name="createChatSearchParams conversation inputs handles non-stop arrays correctly in paramMap" time="0.002">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs includes empty non-stop arrays as serialized empty arrays" name="createChatSearchParams conversation inputs includes empty non-stop arrays as serialized empty arrays" time="0.002">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs excludes parameters with null or undefined values from the output" name="createChatSearchParams conversation inputs excludes parameters with null or undefined values from the output" time="0.002">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs handles float parameter values correctly" name="createChatSearchParams conversation inputs handles float parameter values correctly" time="0.002">
+    </testcase>
+    <testcase classname="createChatSearchParams conversation inputs handles integer parameter values correctly" name="createChatSearchParams conversation inputs handles integer parameter values correctly" time="0.001">
+    </testcase>
+    <testcase classname="createChatSearchParams preset inputs handles preset objects correctly" name="createChatSearchParams preset inputs handles preset objects correctly" time="0.001">
+    </testcase>
+    <testcase classname="createChatSearchParams preset inputs returns only spec param when spec property is present" name="createChatSearchParams preset inputs returns only spec param when spec property is present" time="0.005">
+    </testcase>
+    <testcase classname="createChatSearchParams record inputs includes allowed parameters from Record inputs" name="createChatSearchParams record inputs includes allowed parameters from Record inputs" time="0.006">
+    </testcase>
+    <testcase classname="createChatSearchParams record inputs excludes disallowed parameters from Record inputs" name="createChatSearchParams record inputs excludes disallowed parameters from Record inputs" time="0.007">
+    </testcase>
+    <testcase classname="createChatSearchParams record inputs includes valid values from Record inputs" name="createChatSearchParams record inputs includes valid values from Record inputs" time="0.001">
+    </testcase>
+    <testcase classname="createChatSearchParams record inputs excludes null or undefined values from Record inputs" name="createChatSearchParams record inputs excludes null or undefined values from Record inputs" time="0.005">
+    </testcase>
+    <testcase classname="createChatSearchParams record inputs handles generic object without endpoint or model properties" name="createChatSearchParams record inputs handles generic object without endpoint or model properties" time="0.004">
+    </testcase>
+    <testcase classname="createChatSearchParams edge cases returns an empty URLSearchParams instance when input is null" name="createChatSearchParams edge cases returns an empty URLSearchParams instance when input is null" time="0.003">
+    </testcase>
+    <testcase classname="createChatSearchParams edge cases returns an empty URLSearchParams instance for an empty object input" name="createChatSearchParams edge cases returns an empty URLSearchParams instance for an empty object input" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="useCopyToClipboard" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:56:42" time="2.789" tests="15">
+    <testcase classname="useCopyToClipboard Basic functionality should copy plain text without citations" name="useCopyToClipboard Basic functionality should copy plain text without citations" time="0.081">
+    </testcase>
+    <testcase classname="useCopyToClipboard Basic functionality should handle content array with text types" name="useCopyToClipboard Basic functionality should handle content array with text types" time="0.009">
+    </testcase>
+    <testcase classname="useCopyToClipboard Basic functionality should reset isCopied after timeout" name="useCopyToClipboard Basic functionality should reset isCopied after timeout" time="0.015">
+    </testcase>
+    <testcase classname="useCopyToClipboard Citation formatting should format standalone search citations" name="useCopyToClipboard Citation formatting should format standalone search citations" time="0.019">
+    </testcase>
+    <testcase classname="useCopyToClipboard Citation formatting should format news citations with correct mapping" name="useCopyToClipboard Citation formatting should format news citations with correct mapping" time="0.015">
+    </testcase>
+    <testcase classname="useCopyToClipboard Citation formatting should handle highlighted text with citations" name="useCopyToClipboard Citation formatting should handle highlighted text with citations" time="0.008">
+    </testcase>
+    <testcase classname="useCopyToClipboard Citation formatting should handle composite citations" name="useCopyToClipboard Citation formatting should handle composite citations" time="0.011">
+    </testcase>
+    <testcase classname="useCopyToClipboard Citation deduplication should use same number for duplicate URLs" name="useCopyToClipboard Citation deduplication should use same number for duplicate URLs" time="0.009">
+    </testcase>
+    <testcase classname="useCopyToClipboard Citation deduplication should handle multiple citations of the same source" name="useCopyToClipboard Citation deduplication should handle multiple citations of the same source" time="0.012">
+    </testcase>
+    <testcase classname="useCopyToClipboard Edge cases should handle missing search results gracefully" name="useCopyToClipboard Edge cases should handle missing search results gracefully" time="0.01">
+    </testcase>
+    <testcase classname="useCopyToClipboard Edge cases should handle invalid citation indices" name="useCopyToClipboard Edge cases should handle invalid citation indices" time="0.01">
+    </testcase>
+    <testcase classname="useCopyToClipboard Edge cases should handle citations without links" name="useCopyToClipboard Edge cases should handle citations without links" time="0.005">
+    </testcase>
+    <testcase classname="useCopyToClipboard Edge cases should clean up orphaned citation lists at the end" name="useCopyToClipboard Edge cases should clean up orphaned citation lists at the end" time="0.005">
+    </testcase>
+    <testcase classname="useCopyToClipboard All citation types should handle all citation types correctly" name="useCopyToClipboard All citation types should handle all citation types correctly" time="0.005">
+    </testcase>
+    <testcase classname="useCopyToClipboard Complex scenarios should handle mixed highlighted text and composite citations" name="useCopyToClipboard Complex scenarios should handle mixed highlighted text and composite citations" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="AgentFooter" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:56:18" time="72.492" tests="9">
+    <testcase classname="AgentFooter Main Functionality renders with standard components based on default state" name="AgentFooter Main Functionality renders with standard components based on default state" time="0.238">
+    </testcase>
+    <testcase classname="AgentFooter Main Functionality handles loading states for createMutation" name="AgentFooter Main Functionality handles loading states for createMutation" time="0.427">
+    </testcase>
+    <testcase classname="AgentFooter Main Functionality handles loading states for updateMutation" name="AgentFooter Main Functionality handles loading states for updateMutation" time="0.03">
+    </testcase>
+    <testcase classname="AgentFooter Conditional Rendering adjusts UI based on activePanel state" name="AgentFooter Conditional Rendering adjusts UI based on activePanel state" time="0.022">
+    </testcase>
+    <testcase classname="AgentFooter Conditional Rendering adjusts UI based on agent ID existence" name="AgentFooter Conditional Rendering adjusts UI based on agent ID existence" time="0.037">
+    </testcase>
+    <testcase classname="AgentFooter Conditional Rendering adjusts UI based on user role" name="AgentFooter Conditional Rendering adjusts UI based on user role" time="0.044">
+    </testcase>
+    <testcase classname="AgentFooter Conditional Rendering adjusts UI based on permissions" name="AgentFooter Conditional Rendering adjusts UI based on permissions" time="0.026">
+    </testcase>
+    <testcase classname="AgentFooter Conditional Rendering hides action buttons when permissions are loading" name="AgentFooter Conditional Rendering hides action buttons when permissions are loading" time="0.023">
+    </testcase>
+    <testcase classname="AgentFooter Edge Cases handles null agent data" name="AgentFooter Edge Cases handles null agent data" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="AgentDetail" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:56:45" time="52.995" tests="18">
+    <testcase classname="AgentDetail Rendering should render agent details correctly" name="AgentDetail Rendering should render agent details correctly" time="0.579">
+    </testcase>
+    <testcase classname="AgentDetail Rendering should render contact information when available" name="AgentDetail Rendering should render contact information when available" time="0.322">
+    </testcase>
+    <testcase classname="AgentDetail Rendering should not render contact information when not available" name="AgentDetail Rendering should not render contact information when not available" time="0.123">
+    </testcase>
+    <testcase classname="AgentDetail Rendering should render loading state when agent is null" name="AgentDetail Rendering should render loading state when agent is null" time="0.078">
+    </testcase>
+    <testcase classname="AgentDetail Rendering should render copy link button" name="AgentDetail Rendering should render copy link button" time="0.185">
+    </testcase>
+    <testcase classname="AgentDetail Rendering should render Start Chat button" name="AgentDetail Rendering should render Start Chat button" time="0.176">
+    </testcase>
+    <testcase classname="AgentDetail Interactions should navigate to chat when Start Chat button is clicked" name="AgentDetail Interactions should navigate to chat when Start Chat button is clicked" time="0.313">
+    </testcase>
+    <testcase classname="AgentDetail Interactions should not navigate when agent is null" name="AgentDetail Interactions should not navigate when agent is null" time="0.168">
+    </testcase>
+    <testcase classname="AgentDetail Interactions should copy link and show success toast when Copy Link is clicked" name="AgentDetail Interactions should copy link and show success toast when Copy Link is clicked" time="0.149">
+    </testcase>
+    <testcase classname="AgentDetail Interactions should show error toast when clipboard write fails" name="AgentDetail Interactions should show error toast when clipboard write fails" time="0.159">
+    </testcase>
+    <testcase classname="AgentDetail Interactions should call onClose when dialog is closed" name="AgentDetail Interactions should call onClose when dialog is closed" time="0.005">
+    </testcase>
+    <testcase classname="AgentDetail Accessibility should have proper ARIA attributes" name="AgentDetail Accessibility should have proper ARIA attributes" time="0.101">
+    </testcase>
+    <testcase classname="AgentDetail Accessibility should support keyboard navigation" name="AgentDetail Accessibility should support keyboard navigation" time="0.144">
+    </testcase>
+    <testcase classname="AgentDetail Accessibility should have proper focus management" name="AgentDetail Accessibility should have proper focus management" time="0.108">
+    </testcase>
+    <testcase classname="AgentDetail Edge Cases should handle agent with only email contact" name="AgentDetail Edge Cases should handle agent with only email contact" time="0.132">
+    </testcase>
+    <testcase classname="AgentDetail Edge Cases should handle agent with only name contact" name="AgentDetail Edge Cases should handle agent with only name contact" time="0.103">
+    </testcase>
+    <testcase classname="AgentDetail Edge Cases should handle very long description with proper text wrapping" name="AgentDetail Edge Cases should handle very long description with proper text wrapping" time="0.084">
+    </testcase>
+    <testcase classname="AgentDetail Edge Cases should handle special characters in agent name" name="AgentDetail Edge Cases should handle special characters in agent name" time="0.114">
+    </testcase>
+  </testsuite>
+  <testsuite name="Accessibility Improvements" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:56:18" time="81.502" tests="19">
+    <testcase classname="Accessibility Improvements CategoryTabs Accessibility implements proper tablist role and ARIA attributes" name="Accessibility Improvements CategoryTabs Accessibility implements proper tablist role and ARIA attributes" time="0.422">
+    </testcase>
+    <testcase classname="Accessibility Improvements CategoryTabs Accessibility supports keyboard navigation" name="Accessibility Improvements CategoryTabs Accessibility supports keyboard navigation" time="0.14">
+    </testcase>
+    <testcase classname="Accessibility Improvements CategoryTabs Accessibility manages focus correctly" name="Accessibility Improvements CategoryTabs Accessibility manages focus correctly" time="0.142">
+    </testcase>
+    <testcase classname="Accessibility Improvements SearchBar Accessibility provides proper search role and labels" name="Accessibility Improvements SearchBar Accessibility provides proper search role and labels" time="0.119">
+    </testcase>
+    <testcase classname="Accessibility Improvements SearchBar Accessibility provides accessible clear button" name="Accessibility Improvements SearchBar Accessibility provides accessible clear button" time="0.062">
+    </testcase>
+    <testcase classname="Accessibility Improvements SearchBar Accessibility hides decorative icons from screen readers" name="Accessibility Improvements SearchBar Accessibility hides decorative icons from screen readers" time="0.02">
+    </testcase>
+    <testcase classname="Accessibility Improvements AgentCard Accessibility provides comprehensive ARIA labels" name="Accessibility Improvements AgentCard Accessibility provides comprehensive ARIA labels" time="0.04">
+    </testcase>
+    <testcase classname="Accessibility Improvements AgentCard Accessibility supports keyboard interaction" name="Accessibility Improvements AgentCard Accessibility supports keyboard interaction" time="0.031">
+    </testcase>
+    <testcase classname="Accessibility Improvements AgentGrid Accessibility implements proper tabpanel structure" name="Accessibility Improvements AgentGrid Accessibility implements proper tabpanel structure" time="0.026">
+    </testcase>
+    <testcase classname="Accessibility Improvements AgentGrid Accessibility provides grid structure with proper roles" name="Accessibility Improvements AgentGrid Accessibility provides grid structure with proper roles" time="0.079">
+    </testcase>
+    <testcase classname="Accessibility Improvements AgentGrid Accessibility announces loading states to screen readers" name="Accessibility Improvements AgentGrid Accessibility announces loading states to screen readers" time="0.067">
+    </testcase>
+    <testcase classname="Accessibility Improvements AgentGrid Accessibility provides accessible empty states" name="Accessibility Improvements AgentGrid Accessibility provides accessible empty states" time="0.035">
+    </testcase>
+    <testcase classname="Accessibility Improvements ErrorDisplay Accessibility implements proper alert role and ARIA attributes" name="Accessibility Improvements ErrorDisplay Accessibility implements proper alert role and ARIA attributes" time="0.071">
+    </testcase>
+    <testcase classname="Accessibility Improvements ErrorDisplay Accessibility provides accessible retry button" name="Accessibility Improvements ErrorDisplay Accessibility provides accessible retry button" time="0.067">
+    </testcase>
+    <testcase classname="Accessibility Improvements ErrorDisplay Accessibility structures error content with proper semantics" name="Accessibility Improvements ErrorDisplay Accessibility structures error content with proper semantics" time="0.049">
+    </testcase>
+    <testcase classname="Accessibility Improvements Focus Management maintains proper focus ring styles" name="Accessibility Improvements Focus Management maintains proper focus ring styles" time="0.01">
+    </testcase>
+    <testcase classname="Accessibility Improvements Focus Management provides visible focus indicators on interactive elements" name="Accessibility Improvements Focus Management provides visible focus indicators on interactive elements" time="0.026">
+    </testcase>
+    <testcase classname="Accessibility Improvements Screen Reader Announcements includes live regions for dynamic content" name="Accessibility Improvements Screen Reader Announcements includes live regions for dynamic content" time="0.016">
+    </testcase>
+    <testcase classname="Accessibility Improvements Screen Reader Announcements provides screen reader only content" name="Accessibility Improvements Screen Reader Announcements provides screen reader only content" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="SmartLoader" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:57:40" time="1.349" tests="23">
+    <testcase classname="SmartLoader Basic functionality shows content immediately when not loading" name="SmartLoader Basic functionality shows content immediately when not loading" time="0.023">
+    </testcase>
+    <testcase classname="SmartLoader Basic functionality shows content immediately when loading but has existing data" name="SmartLoader Basic functionality shows content immediately when loading but has existing data" time="0.02">
+    </testcase>
+    <testcase classname="SmartLoader Basic functionality shows content initially, then loading after delay when loading with no data" name="SmartLoader Basic functionality shows content initially, then loading after delay when loading with no data" time="0.023">
+    </testcase>
+    <testcase classname="SmartLoader Basic functionality prevents loading flash for quick responses" name="SmartLoader Basic functionality prevents loading flash for quick responses" time="0.019">
+    </testcase>
+    <testcase classname="SmartLoader Delay behavior respects custom delay times" name="SmartLoader Delay behavior respects custom delay times" time="0.02">
+    </testcase>
+    <testcase classname="SmartLoader Delay behavior uses default delay when not specified" name="SmartLoader Delay behavior uses default delay when not specified" time="0.007">
+    </testcase>
+    <testcase classname="SmartLoader State transitions immediately hides loading when loading completes" name="SmartLoader State transitions immediately hides loading when loading completes" time="0.013">
+    </testcase>
+    <testcase classname="SmartLoader State transitions handles rapid loading state changes correctly" name="SmartLoader State transitions handles rapid loading state changes correctly" time="0.009">
+    </testcase>
+    <testcase classname="SmartLoader CSS classes applies custom className" name="SmartLoader CSS classes applies custom className" time="0.005">
+    </testcase>
+    <testcase classname="SmartLoader CSS classes applies className to both loading and content states" name="SmartLoader CSS classes applies className to both loading and content states" time="0.007">
+    </testcase>
+    <testcase classname="useHasData returns false for null data" name="useHasData returns false for null data" time="0.005">
+    </testcase>
+    <testcase classname="useHasData returns false for undefined data" name="useHasData returns false for undefined data" time="0.003">
+    </testcase>
+    <testcase classname="useHasData detects empty agents array as no data" name="useHasData detects empty agents array as no data" time="0.004">
+    </testcase>
+    <testcase classname="useHasData detects non-empty agents array as has data" name="useHasData detects non-empty agents array as has data" time="0.004">
+    </testcase>
+    <testcase classname="useHasData detects invalid agents property as no data" name="useHasData detects invalid agents property as no data" time="0.005">
+    </testcase>
+    <testcase classname="useHasData detects empty array as no data" name="useHasData detects empty array as no data" time="0.003">
+    </testcase>
+    <testcase classname="useHasData detects non-empty array as has data" name="useHasData detects non-empty array as has data" time="0.003">
+    </testcase>
+    <testcase classname="useHasData detects agent with id as has data" name="useHasData detects agent with id as has data" time="0.002">
+    </testcase>
+    <testcase classname="useHasData detects agent with name only as has data" name="useHasData detects agent with name only as has data" time="0.003">
+    </testcase>
+    <testcase classname="useHasData detects object without id or name as no data" name="useHasData detects object without id or name as no data" time="0.006">
+    </testcase>
+    <testcase classname="useHasData handles string data as no data" name="useHasData handles string data as no data" time="0.004">
+    </testcase>
+    <testcase classname="useHasData handles number data as no data" name="useHasData handles number data as no data" time="0.004">
+    </testcase>
+    <testcase classname="useHasData handles boolean data as no data" name="useHasData handles boolean data as no data" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="useFocusChatEffect" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:57:38" time="3.036" tests="17">
+    <testcase classname="useFocusChatEffect Basic functionality should focus textarea when location.state.focusChat is true" name="useFocusChatEffect Basic functionality should focus textarea when location.state.focusChat is true" time="0.013">
+    </testcase>
+    <testcase classname="useFocusChatEffect Basic functionality should not focus textarea when location.state.focusChat is false" name="useFocusChatEffect Basic functionality should not focus textarea when location.state.focusChat is false" time="0.013">
+    </testcase>
+    <testcase classname="useFocusChatEffect Basic functionality should not focus textarea when textAreaRef.current is null" name="useFocusChatEffect Basic functionality should not focus textarea when textAreaRef.current is null" time="0.003">
+    </testcase>
+    <testcase classname="useFocusChatEffect Basic functionality should not focus textarea on touchscreen devices" name="useFocusChatEffect Basic functionality should not focus textarea on touchscreen devices" time="0.004">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should use window.location.search instead of location.search" name="useFocusChatEffect URL parameter handling should use window.location.search instead of location.search" time="0.01">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should prioritize window.location.search with agent_id parameter" name="useFocusChatEffect URL parameter handling should prioritize window.location.search with agent_id parameter" time="0.007">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should use empty path when window.location.search is empty" name="useFocusChatEffect URL parameter handling should use empty path when window.location.search is empty" time="0.004">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should use window.location.search when React Router search is empty" name="useFocusChatEffect URL parameter handling should use window.location.search when React Router search is empty" time="0.006">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should use window.location.search even when both have agent_id but with different values" name="useFocusChatEffect URL parameter handling should use window.location.search even when both have agent_id but with different values" time="0.002">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should handle URL parameters with special characters correctly" name="useFocusChatEffect URL parameter handling should handle URL parameters with special characters correctly" time="0.017">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should handle multiple URL parameters correctly" name="useFocusChatEffect URL parameter handling should handle multiple URL parameters correctly" time="0.003">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should pass through malformed URL parameters unchanged" name="useFocusChatEffect URL parameter handling should pass through malformed URL parameters unchanged" time="0.008">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should handle navigation immediately after URL parameter changes" name="useFocusChatEffect URL parameter handling should handle navigation immediately after URL parameter changes" time="0.009">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should handle undefined or null search params gracefully" name="useFocusChatEffect URL parameter handling should handle undefined or null search params gracefully" time="0.008">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should handle navigation when location.state is null" name="useFocusChatEffect URL parameter handling should handle navigation when location.state is null" time="0.003">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should handle navigation when location.state.focusChat is undefined" name="useFocusChatEffect URL parameter handling should handle navigation when location.state.focusChat is undefined" time="0.003">
+    </testcase>
+    <testcase classname="useFocusChatEffect URL parameter handling should handle navigation when both search params are empty" name="useFocusChatEffect URL parameter handling should handle navigation when both search params are empty" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="preprocessLaTeX" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:57:41" time="0.826" tests="40">
+    <testcase classname="preprocessLaTeX returns the same string if no LaTeX patterns are found" name="preprocessLaTeX returns the same string if no LaTeX patterns are found" time="0.005">
+    </testcase>
+    <testcase classname="preprocessLaTeX returns the same string if no dollar signs are present" name="preprocessLaTeX returns the same string if no dollar signs are present" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX preserves valid inline LaTeX delimiters \(...\)" name="preprocessLaTeX preserves valid inline LaTeX delimiters \(...\)" time="0">
+    </testcase>
+    <testcase classname="preprocessLaTeX preserves valid block LaTeX delimiters \[...\]" name="preprocessLaTeX preserves valid block LaTeX delimiters \[...\]" time="0">
+    </testcase>
+    <testcase classname="preprocessLaTeX preserves valid double dollar delimiters" name="preprocessLaTeX preserves valid double dollar delimiters" time="0.002">
+    </testcase>
+    <testcase classname="preprocessLaTeX converts single dollar delimiters to double dollars" name="preprocessLaTeX converts single dollar delimiters to double dollars" time="0.002">
+    </testcase>
+    <testcase classname="preprocessLaTeX converts multiple single dollar expressions" name="preprocessLaTeX converts multiple single dollar expressions" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX escapes currency dollar signs" name="preprocessLaTeX escapes currency dollar signs" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX escapes currency with spaces" name="preprocessLaTeX escapes currency with spaces" time="0.002">
+    </testcase>
+    <testcase classname="preprocessLaTeX escapes currency with commas" name="preprocessLaTeX escapes currency with commas" time="0.003">
+    </testcase>
+    <testcase classname="preprocessLaTeX escapes currency with decimals" name="preprocessLaTeX escapes currency with decimals" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX converts LaTeX expressions while escaping currency" name="preprocessLaTeX converts LaTeX expressions while escaping currency" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles Goldbach Conjecture example" name="preprocessLaTeX handles Goldbach Conjecture example" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX does not escape already escaped dollar signs" name="preprocessLaTeX does not escape already escaped dollar signs" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX does not convert already escaped single dollars" name="preprocessLaTeX does not convert already escaped single dollars" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX escapes mhchem commands" name="preprocessLaTeX escapes mhchem commands" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles empty string" name="preprocessLaTeX handles empty string" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles complex mixed content" name="preprocessLaTeX handles complex mixed content" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles multiple equations with currency" name="preprocessLaTeX handles multiple equations with currency" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles inline code blocks" name="preprocessLaTeX handles inline code blocks" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles multiline code blocks" name="preprocessLaTeX handles multiline code blocks" time="0.018">
+    </testcase>
+    <testcase classname="preprocessLaTeX preserves LaTeX expressions with special characters" name="preprocessLaTeX preserves LaTeX expressions with special characters" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles complex physics equations" name="preprocessLaTeX handles complex physics equations" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles financial calculations with currency" name="preprocessLaTeX handles financial calculations with currency" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX does not convert partial or malformed expressions" name="preprocessLaTeX does not convert partial or malformed expressions" time="0">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles nested parentheses in LaTeX" name="preprocessLaTeX handles nested parentheses in LaTeX" time="0">
+    </testcase>
+    <testcase classname="preprocessLaTeX preserves spacing in equations" name="preprocessLaTeX preserves spacing in equations" time="0">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles LaTeX with newlines inside should not be converted" name="preprocessLaTeX handles LaTeX with newlines inside should not be converted" time="0.002">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles multiple dollar signs in text" name="preprocessLaTeX handles multiple dollar signs in text" time="0.002">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles complex LaTeX with currency in same expression" name="preprocessLaTeX handles complex LaTeX with currency in same expression" time="0.002">
+    </testcase>
+    <testcase classname="preprocessLaTeX preserves already escaped dollars in LaTeX" name="preprocessLaTeX preserves already escaped dollars in LaTeX" time="0.004">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles adjacent LaTeX and currency" name="preprocessLaTeX handles adjacent LaTeX and currency" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles LaTeX with special characters and currency" name="preprocessLaTeX handles LaTeX with special characters and currency" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX does not convert when closing dollar is preceded by backtick" name="preprocessLaTeX does not convert when closing dollar is preceded by backtick" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles mixed backtick and non-backtick cases" name="preprocessLaTeX handles mixed backtick and non-backtick cases" time="0.002">
+    </testcase>
+    <testcase classname="preprocessLaTeX escapes currency amounts without commas" name="preprocessLaTeX escapes currency amounts without commas" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles large currency amounts" name="preprocessLaTeX handles large currency amounts" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX escapes currency with many decimal places" name="preprocessLaTeX escapes currency with many decimal places" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX escapes abbreviated currency notation" name="preprocessLaTeX escapes abbreviated currency notation" time="0.001">
+    </testcase>
+    <testcase classname="preprocessLaTeX handles various abbreviated currency formats" name="preprocessLaTeX handles various abbreviated currency formats" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="AgentPanel - Update Agent Toast Messages" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:57:42" time="5.633" tests="5">
+    <testcase classname="AgentPanel - Update Agent Toast Messages AgentPanel should show &quot;no changes&quot; toast when version does not change" name="AgentPanel - Update Agent Toast Messages AgentPanel should show &quot;no changes&quot; toast when version does not change" time="0.96">
+    </testcase>
+    <testcase classname="AgentPanel - Update Agent Toast Messages AgentPanel should show &quot;update success&quot; toast when version changes" name="AgentPanel - Update Agent Toast Messages AgentPanel should show &quot;update success&quot; toast when version changes" time="0.079">
+    </testcase>
+    <testcase classname="AgentPanel - Update Agent Toast Messages AgentPanel should show &quot;update success&quot; with default name when agent has no name" name="AgentPanel - Update Agent Toast Messages AgentPanel should show &quot;update success&quot; with default name when agent has no name" time="0.075">
+    </testcase>
+    <testcase classname="AgentPanel - Update Agent Toast Messages AgentPanel should show &quot;update success&quot; when agent query has no version (undefined)" name="AgentPanel - Update Agent Toast Messages AgentPanel should show &quot;update success&quot; when agent query has no version (undefined)" time="0.083">
+    </testcase>
+    <testcase classname="AgentPanel - Update Agent Toast Messages AgentPanel should show error toast on update failure" name="AgentPanel - Update Agent Toast Messages AgentPanel should show error toast on update failure" time="0.074">
+    </testcase>
+  </testsuite>
+  <testsuite name="presets utils" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:57:48" time="1.075" tests="27">
+    <testcase classname="presets utils getPresetTitle with modelLabel should use modelLabel as the label" name="presets utils getPresetTitle with modelLabel should use modelLabel as the label" time="0.002">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle with modelLabel should prioritize modelLabel over deprecated chatGptLabel" name="presets utils getPresetTitle with modelLabel should prioritize modelLabel over deprecated chatGptLabel" time="0.001">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle with modelLabel should handle title that includes the label" name="presets utils getPresetTitle with modelLabel should handle title that includes the label" time="0.001">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle with modelLabel should handle case-insensitive title matching" name="presets utils getPresetTitle with modelLabel should handle case-insensitive title matching" time="0.001">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle with modelLabel should use label as title when label includes the title" name="presets utils getPresetTitle with modelLabel should use label as title when label includes the title" time="0.001">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle without modelLabel should work without modelLabel" name="presets utils getPresetTitle without modelLabel should work without modelLabel" time="0.002">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle without modelLabel should handle empty modelLabel" name="presets utils getPresetTitle without modelLabel should handle empty modelLabel" time="0.003">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle without modelLabel should handle null modelLabel" name="presets utils getPresetTitle without modelLabel should handle null modelLabel" time="0.001">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle title variations should handle missing title" name="presets utils getPresetTitle title variations should handle missing title" time="0.002">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle title variations should handle empty title" name="presets utils getPresetTitle title variations should handle empty title" time="0.002">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle title variations should handle &quot;New Chat&quot; title" name="presets utils getPresetTitle title variations should handle &quot;New Chat&quot; title" time="0.001">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle title variations should handle title with whitespace" name="presets utils getPresetTitle title variations should handle title with whitespace" time="0.001">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle mention mode should return mention format with all components" name="presets utils getPresetTitle mention mode should return mention format with all components" time="0.002">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle mention mode should handle mention format with object tools" name="presets utils getPresetTitle mention mode should handle mention format with object tools" time="0.001">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle mention mode should handle mention format with minimal data" name="presets utils getPresetTitle mention mode should handle mention format with minimal data" time="0.001">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle mention mode should handle mention format with only modelLabel" name="presets utils getPresetTitle mention mode should handle mention format with only modelLabel" time="0.002">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle mention mode should handle mention format with only promptPrefix" name="presets utils getPresetTitle mention mode should handle mention format with only promptPrefix" time="0.001">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle edge cases should handle missing model" name="presets utils getPresetTitle edge cases should handle missing model" time="0">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle edge cases should handle undefined model" name="presets utils getPresetTitle edge cases should handle undefined model" time="0.001">
+    </testcase>
+    <testcase classname="presets utils getPresetTitle edge cases should trim the final result" name="presets utils getPresetTitle edge cases should trim the final result" time="0.001">
+    </testcase>
+    <testcase classname="presets utils removeUnavailableTools should remove unavailable tools from string array" name="presets utils removeUnavailableTools should remove unavailable tools from string array" time="0.003">
+    </testcase>
+    <testcase classname="presets utils removeUnavailableTools should remove unavailable tools from object array" name="presets utils removeUnavailableTools should remove unavailable tools from object array" time="0.002">
+    </testcase>
+    <testcase classname="presets utils removeUnavailableTools should handle preset without tools" name="presets utils removeUnavailableTools should handle preset without tools" time="0.001">
+    </testcase>
+    <testcase classname="presets utils removeUnavailableTools should handle preset with empty tools array" name="presets utils removeUnavailableTools should handle preset with empty tools array" time="0.002">
+    </testcase>
+    <testcase classname="presets utils removeUnavailableTools should remove all tools when none are available" name="presets utils removeUnavailableTools should remove all tools when none are available" time="0.001">
+    </testcase>
+    <testcase classname="presets utils removeUnavailableTools should preserve all other preset properties" name="presets utils removeUnavailableTools should preserve all other preset properties" time="0.002">
+    </testcase>
+    <testcase classname="presets utils removeUnavailableTools should not mutate the original preset" name="presets utils removeUnavailableTools should not mutate the original preset" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="MemoryInfo" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:57:49" time="1.051" tests="13">
+    <testcase classname="MemoryInfo Error Memory Display displays error section when memory is already exceeded" name="MemoryInfo Error Memory Display displays error section when memory is already exceeded" time="0.016">
+    </testcase>
+    <testcase classname="MemoryInfo Error Memory Display displays error when memory would exceed limit" name="MemoryInfo Error Memory Display displays error when memory would exceed limit" time="0.005">
+    </testcase>
+    <testcase classname="MemoryInfo Error Memory Display displays multiple error messages" name="MemoryInfo Error Memory Display displays multiple error messages" time="0.008">
+    </testcase>
+    <testcase classname="MemoryInfo Error Memory Display applies correct styling to error messages" name="MemoryInfo Error Memory Display applies correct styling to error messages" time="0.017">
+    </testcase>
+    <testcase classname="MemoryInfo Mixed Memory Types displays all sections when different memory types are present" name="MemoryInfo Mixed Memory Types displays all sections when different memory types are present" time="0.022">
+    </testcase>
+    <testcase classname="MemoryInfo Mixed Memory Types only displays sections with content" name="MemoryInfo Mixed Memory Types only displays sections with content" time="0.01">
+    </testcase>
+    <testcase classname="MemoryInfo Edge Cases handles empty memory artifacts array" name="MemoryInfo Edge Cases handles empty memory artifacts array" time="0.004">
+    </testcase>
+    <testcase classname="MemoryInfo Edge Cases handles malformed error data gracefully" name="MemoryInfo Edge Cases handles malformed error data gracefully" time="0.008">
+    </testcase>
+    <testcase classname="MemoryInfo Edge Cases handles missing value in error artifact" name="MemoryInfo Edge Cases handles missing value in error artifact" time="0.007">
+    </testcase>
+    <testcase classname="MemoryInfo Edge Cases handles unknown errorType gracefully" name="MemoryInfo Edge Cases handles unknown errorType gracefully" time="0.006">
+    </testcase>
+    <testcase classname="MemoryInfo Edge Cases returns null when no memories of any type exist" name="MemoryInfo Edge Cases returns null when no memories of any type exist" time="0.007">
+    </testcase>
+    <testcase classname="MemoryInfo Update and Delete Memory Display displays updated memories correctly" name="MemoryInfo Update and Delete Memory Display displays updated memories correctly" time="0.007">
+    </testcase>
+    <testcase classname="MemoryInfo Update and Delete Memory Display displays deleted memories correctly" name="MemoryInfo Update and Delete Memory Display displays deleted memories correctly" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="useHealthCheck" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:57:50" time="1.927" tests="14">
+    <testcase classname="useHealthCheck when not authenticated should not start health check" name="useHealthCheck when not authenticated should not start health check" time="0.008">
+    </testcase>
+    <testcase classname="useHealthCheck when authenticated should start health check after delay" name="useHealthCheck when authenticated should start health check after delay" time="0.006">
+    </testcase>
+    <testcase classname="useHealthCheck when authenticated should set up 10-minute interval" name="useHealthCheck when authenticated should set up 10-minute interval" time="0.008">
+    </testcase>
+    <testcase classname="useHealthCheck when authenticated should run health check continuously every 10 minutes" name="useHealthCheck when authenticated should run health check continuously every 10 minutes" time="0.005">
+    </testcase>
+    <testcase classname="useHealthCheck when authenticated should add window focus event listener" name="useHealthCheck when authenticated should add window focus event listener" time="0.007">
+    </testcase>
+    <testcase classname="useHealthCheck when authenticated should handle window focus correctly when no previous check" name="useHealthCheck when authenticated should handle window focus correctly when no previous check" time="0.01">
+    </testcase>
+    <testcase classname="useHealthCheck when authenticated should handle window focus correctly when check is recent" name="useHealthCheck when authenticated should handle window focus correctly when check is recent" time="0.005">
+    </testcase>
+    <testcase classname="useHealthCheck when authenticated should handle window focus correctly when check is old" name="useHealthCheck when authenticated should handle window focus correctly when check is old" time="0.004">
+    </testcase>
+    <testcase classname="useHealthCheck when authenticated should prevent multiple initializations" name="useHealthCheck when authenticated should prevent multiple initializations" time="0.008">
+    </testcase>
+    <testcase classname="useHealthCheck when authenticated should handle API errors gracefully" name="useHealthCheck when authenticated should handle API errors gracefully" time="0.005">
+    </testcase>
+    <testcase classname="useHealthCheck cleanup should clear intervals on unmount" name="useHealthCheck cleanup should clear intervals on unmount" time="0.011">
+    </testcase>
+    <testcase classname="useHealthCheck cleanup should remove event listeners on unmount" name="useHealthCheck cleanup should remove event listeners on unmount" time="0.007">
+    </testcase>
+    <testcase classname="useHealthCheck cleanup should clear timeout on unmount before initialization" name="useHealthCheck cleanup should clear timeout on unmount before initialization" time="0.006">
+    </testcase>
+    <testcase classname="useHealthCheck authentication state changes should start health check when authentication becomes true" name="useHealthCheck authentication state changes should start health check when authentication becomes true" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="isActiveVersion" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:57:52" time="1.031" tests="26">
+    <testcase classname="isActiveVersion returns true for the first version in versions array when currentAgent is null" name="isActiveVersion returns true for the first version in versions array when currentAgent is null" time="0.005">
+    </testcase>
+    <testcase classname="isActiveVersion returns true when all fields match exactly" name="isActiveVersion returns true when all fields match exactly" time="0.003">
+    </testcase>
+    <testcase classname="isActiveVersion returns false when names do not match" name="isActiveVersion returns false when names do not match" time="0.002">
+    </testcase>
+    <testcase classname="isActiveVersion returns false when descriptions do not match" name="isActiveVersion returns false when descriptions do not match" time="0.002">
+    </testcase>
+    <testcase classname="isActiveVersion returns false when instructions do not match" name="isActiveVersion returns false when instructions do not match" time="0.002">
+    </testcase>
+    <testcase classname="isActiveVersion returns false when artifacts do not match" name="isActiveVersion returns false when artifacts do not match" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion matches tools regardless of order" name="isActiveVersion matches tools regardless of order" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion returns false when tools arrays have different lengths" name="isActiveVersion returns false when tools arrays have different lengths" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion returns false when tools do not match" name="isActiveVersion returns false when tools do not match" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion matches capabilities regardless of order" name="isActiveVersion matches capabilities regardless of order" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion returns false when capabilities arrays have different lengths" name="isActiveVersion returns false when capabilities arrays have different lengths" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion returns false when capabilities do not match" name="isActiveVersion returns false when capabilities do not match" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles missing tools arrays" name="isActiveVersion edge cases handles missing tools arrays" time="0.005">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles when version has tools but agent does not" name="isActiveVersion edge cases handles when version has tools but agent does not" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles when agent has tools but version does not" name="isActiveVersion edge cases handles when agent has tools but version does not" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles missing capabilities arrays" name="isActiveVersion edge cases handles missing capabilities arrays" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles when version has capabilities but agent does not" name="isActiveVersion edge cases handles when version has capabilities but agent does not" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles when agent has capabilities but version does not" name="isActiveVersion edge cases handles when agent has capabilities but version does not" time="0">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles null values in fields" name="isActiveVersion edge cases handles null values in fields" time="0">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles empty versions array" name="isActiveVersion edge cases handles empty versions array" time="0.003">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles empty arrays for tools" name="isActiveVersion edge cases handles empty arrays for tools" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles empty arrays for capabilities" name="isActiveVersion edge cases handles empty arrays for capabilities" time="0.002">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles missing artifacts field" name="isActiveVersion edge cases handles missing artifacts field" time="0.003">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles when version has artifacts but agent does not" name="isActiveVersion edge cases handles when version has artifacts but agent does not" time="0.001">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles when agent has artifacts but version does not" name="isActiveVersion edge cases handles when agent has artifacts but version does not" time="0.002">
+    </testcase>
+    <testcase classname="isActiveVersion edge cases handles empty string for artifacts" name="isActiveVersion edge cases handles empty string for artifacts" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ErrorDisplay" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:57:41" time="20.148" tests="17">
+    <testcase classname="ErrorDisplay Backend error responses displays user-friendly message from backend response" name="ErrorDisplay Backend error responses displays user-friendly message from backend response" time="0.025">
+    </testcase>
+    <testcase classname="ErrorDisplay Backend error responses handles search context with backend response" name="ErrorDisplay Backend error responses handles search context with backend response" time="0.008">
+    </testcase>
+    <testcase classname="ErrorDisplay Network errors displays network error message" name="ErrorDisplay Network errors displays network error message" time="0.009">
+    </testcase>
+    <testcase classname="ErrorDisplay Network errors handles timeout errors" name="ErrorDisplay Network errors handles timeout errors" time="0.015">
+    </testcase>
+    <testcase classname="ErrorDisplay HTTP status codes handles 404 errors with search context" name="ErrorDisplay HTTP status codes handles 404 errors with search context" time="0.006">
+    </testcase>
+    <testcase classname="ErrorDisplay HTTP status codes handles 404 errors with category context" name="ErrorDisplay HTTP status codes handles 404 errors with category context" time="0.005">
+    </testcase>
+    <testcase classname="ErrorDisplay HTTP status codes handles 400 bad request errors" name="ErrorDisplay HTTP status codes handles 400 bad request errors" time="0.008">
+    </testcase>
+    <testcase classname="ErrorDisplay HTTP status codes handles 500 server errors" name="ErrorDisplay HTTP status codes handles 500 server errors" time="0.006">
+    </testcase>
+    <testcase classname="ErrorDisplay Retry functionality displays retry button when onRetry is provided" name="ErrorDisplay Retry functionality displays retry button when onRetry is provided" time="0.012">
+    </testcase>
+    <testcase classname="ErrorDisplay Retry functionality does not display retry button when onRetry is not provided" name="ErrorDisplay Retry functionality does not display retry button when onRetry is not provided" time="0.005">
+    </testcase>
+    <testcase classname="ErrorDisplay Context-aware titles shows search error title for search context" name="ErrorDisplay Context-aware titles shows search error title for search context" time="0.004">
+    </testcase>
+    <testcase classname="ErrorDisplay Context-aware titles shows category error title for category context" name="ErrorDisplay Context-aware titles shows category error title for category context" time="0.005">
+    </testcase>
+    <testcase classname="ErrorDisplay Context-aware titles shows generic error title when no context" name="ErrorDisplay Context-aware titles shows generic error title when no context" time="0.003">
+    </testcase>
+    <testcase classname="ErrorDisplay Fallback error handling handles unknown errors gracefully" name="ErrorDisplay Fallback error handling handles unknown errors gracefully" time="0.005">
+    </testcase>
+    <testcase classname="ErrorDisplay Fallback error handling handles null/undefined errors" name="ErrorDisplay Fallback error handling handles null/undefined errors" time="0.004">
+    </testcase>
+    <testcase classname="ErrorDisplay Accessibility renders error icon with proper accessibility" name="ErrorDisplay Accessibility renders error icon with proper accessibility" time="0.007">
+    </testcase>
+    <testcase classname="ErrorDisplay Accessibility has proper heading structure" name="ErrorDisplay Accessibility has proper heading structure" time="0.092">
+    </testcase>
+  </testsuite>
+  <testsuite name="AgentGrid Integration with useGetMarketplaceAgentsQuery" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:57:30" time="31.07" tests="14">
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Query Integration should call useGetMarketplaceAgentsQuery with correct parameters for category search" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Query Integration should call useGetMarketplaceAgentsQuery with correct parameters for category search" time="0.018">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Query Integration should call useGetMarketplaceAgentsQuery with promoted=1 for promoted category" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Query Integration should call useGetMarketplaceAgentsQuery with promoted=1 for promoted category" time="0.009">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Query Integration should call useGetMarketplaceAgentsQuery without category filter for &quot;all&quot; category" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Query Integration should call useGetMarketplaceAgentsQuery without category filter for &quot;all&quot; category" time="0.005">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Query Integration should not include category in search when category is &quot;all&quot; or &quot;promoted&quot;" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Query Integration should not include category in search when category is &quot;all&quot; or &quot;promoted&quot;" time="0.005">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Agent Display should render agent cards when data is available" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Agent Display should render agent cards when data is available" time="0.017">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Agent Display should call onSelectAgent when agent card is clicked" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Agent Display should call onSelectAgent when agent card is clicked" time="0.023">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Loading States should show loading state when isLoading is true" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Loading States should show loading state when isLoading is true" time="0.009">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Loading States should show empty state when no agents are available" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Loading States should show empty state when no agents are available" time="0.005">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Error Handling should show error display when query has error" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Error Handling should show error display when query has error" time="0.104">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Search Results should show search results title when searching" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Search Results should show search results title when searching" time="0.008">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Search Results should show empty search results message" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Search Results should show empty search results message" time="0.004">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Infinite Scroll Functionality should show loading indicator when fetching next page" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Infinite Scroll Functionality should show loading indicator when fetching next page" time="0.024">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Infinite Scroll Functionality should show end of results message when hasNextPage is false and agents exist" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Infinite Scroll Functionality should show end of results message when hasNextPage is false and agents exist" time="0.016">
+    </testcase>
+    <testcase classname="AgentGrid Integration with useGetMarketplaceAgentsQuery Infinite Scroll Functionality should not show end of results message when no agents exist" name="AgentGrid Integration with useGetMarketplaceAgentsQuery Infinite Scroll Functionality should not show end of results message when no agents exist" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="useQueryParams" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:56:18" time="103.969" tests="6">
+    <testcase classname="useQueryParams should process query parameters on initial render" name="useQueryParams should process query parameters on initial render" time="0.099">
+    </testcase>
+    <testcase classname="useQueryParams should auto-submit message when submit=true and no settings to apply" name="useQueryParams should auto-submit message when submit=true and no settings to apply" time="0.012">
+    </testcase>
+    <testcase classname="useQueryParams should defer submission when settings need to be applied first" name="useQueryParams should defer submission when settings need to be applied first" time="0.407">
+    </testcase>
+    <testcase classname="useQueryParams should submit after timeout if settings never get applied" name="useQueryParams should submit after timeout if settings never get applied" time="0.013">
+    </testcase>
+    <testcase classname="useQueryParams should mark as submitted when no submit parameter is present" name="useQueryParams should mark as submitted when no submit parameter is present" time="0.008">
+    </testcase>
+    <testcase classname="useQueryParams should handle empty query parameters" name="useQueryParams should handle empty query parameters" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="ToolCallInfo" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:03" time="1.715" tests="10">
+    <testcase classname="ToolCallInfo ui_resources extraction should extract single ui_resource from output" name="ToolCallInfo ui_resources extraction should extract single ui_resource from output" time="0.037">
+    </testcase>
+    <testcase classname="ToolCallInfo ui_resources extraction should extract multiple ui_resources from output" name="ToolCallInfo ui_resources extraction should extract multiple ui_resources from output" time="0.016">
+    </testcase>
+    <testcase classname="ToolCallInfo ui_resources extraction should filter out ui_resources from displayed output" name="ToolCallInfo ui_resources extraction should filter out ui_resources from displayed output" time="0.024">
+    </testcase>
+    <testcase classname="ToolCallInfo ui_resources extraction should handle output without ui_resources" name="ToolCallInfo ui_resources extraction should handle output without ui_resources" time="0.016">
+    </testcase>
+    <testcase classname="ToolCallInfo ui_resources extraction should handle malformed ui_resources gracefully" name="ToolCallInfo ui_resources extraction should handle malformed ui_resources gracefully" time="0.012">
+    </testcase>
+    <testcase classname="ToolCallInfo ui_resources extraction should handle ui_resources as plain text without breaking" name="ToolCallInfo ui_resources extraction should handle ui_resources as plain text without breaking" time="0.898">
+    </testcase>
+    <testcase classname="ToolCallInfo rendering logic should render UI Resources heading when ui_resources exist" name="ToolCallInfo rendering logic should render UI Resources heading when ui_resources exist" time="0.008">
+    </testcase>
+    <testcase classname="ToolCallInfo rendering logic should not render UI Resources heading when no ui_resources" name="ToolCallInfo rendering logic should not render UI Resources heading when no ui_resources" time="0.009">
+    </testcase>
+    <testcase classname="ToolCallInfo rendering logic should pass correct props to UIResourceRenderer" name="ToolCallInfo rendering logic should pass correct props to UIResourceRenderer" time="0.01">
+    </testcase>
+    <testcase classname="ToolCallInfo rendering logic should console.log when UIAction is triggered" name="ToolCallInfo rendering logic should console.log when UIAction is triggered" time="0.027">
+    </testcase>
+  </testsuite>
+  <testsuite name="AgentCard" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:02" time="2.47" tests="19">
+    <testcase classname="AgentCard renders agent information correctly" name="AgentCard renders agent information correctly" time="0.034">
+    </testcase>
+    <testcase classname="AgentCard displays avatar when provided as object" name="AgentCard displays avatar when provided as object" time="0.011">
+    </testcase>
+    <testcase classname="AgentCard displays avatar when provided as string" name="AgentCard displays avatar when provided as string" time="0.009">
+    </testcase>
+    <testcase classname="AgentCard displays Bot icon fallback when no avatar is provided" name="AgentCard displays Bot icon fallback when no avatar is provided" time="0.016">
+    </testcase>
+    <testcase classname="AgentCard calls onClick when card is clicked" name="AgentCard calls onClick when card is clicked" time="0.038">
+    </testcase>
+    <testcase classname="AgentCard calls onClick when Enter key is pressed" name="AgentCard calls onClick when Enter key is pressed" time="0.023">
+    </testcase>
+    <testcase classname="AgentCard calls onClick when Space key is pressed" name="AgentCard calls onClick when Space key is pressed" time="0.021">
+    </testcase>
+    <testcase classname="AgentCard does not call onClick for other keys" name="AgentCard does not call onClick for other keys" time="0.066">
+    </testcase>
+    <testcase classname="AgentCard applies additional className when provided" name="AgentCard applies additional className when provided" time="0.054">
+    </testcase>
+    <testcase classname="AgentCard handles missing support contact gracefully" name="AgentCard handles missing support contact gracefully" time="0.022">
+    </testcase>
+    <testcase classname="AgentCard displays authorName when support_contact is missing" name="AgentCard displays authorName when support_contact is missing" time="0.011">
+    </testcase>
+    <testcase classname="AgentCard displays support_contact email when name is missing" name="AgentCard displays support_contact email when name is missing" time="0.009">
+    </testcase>
+    <testcase classname="AgentCard prioritizes support_contact name over authorName" name="AgentCard prioritizes support_contact name over authorName" time="0.009">
+    </testcase>
+    <testcase classname="AgentCard prioritizes name over email in support_contact" name="AgentCard prioritizes name over email in support_contact" time="0.01">
+    </testcase>
+    <testcase classname="AgentCard has proper accessibility attributes" name="AgentCard has proper accessibility attributes" time="0.02">
+    </testcase>
+    <testcase classname="AgentCard displays localized category label" name="AgentCard displays localized category label" time="0.011">
+    </testcase>
+    <testcase classname="AgentCard displays custom category label" name="AgentCard displays custom category label" time="0.023">
+    </testcase>
+    <testcase classname="AgentCard displays capitalized fallback for unknown category" name="AgentCard displays capitalized fallback for unknown category" time="0.007">
+    </testcase>
+    <testcase classname="AgentCard does not display category tag when category is not provided" name="AgentCard does not display category tag when category is not provided" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="UIResourceCarousel" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:04" time="1.655" tests="11">
+    <testcase classname="UIResourceCarousel renders nothing when no resources provided" name="UIResourceCarousel renders nothing when no resources provided" time="0.006">
+    </testcase>
+    <testcase classname="UIResourceCarousel renders all UI resources" name="UIResourceCarousel renders all UI resources" time="0.03">
+    </testcase>
+    <testcase classname="UIResourceCarousel shows/hides navigation arrows on hover" name="UIResourceCarousel shows/hides navigation arrows on hover" time="0.068">
+    </testcase>
+    <testcase classname="UIResourceCarousel handles scroll navigation" name="UIResourceCarousel handles scroll navigation" time="0.048">
+    </testcase>
+    <testcase classname="UIResourceCarousel hides right arrow when scrolled to end" name="UIResourceCarousel hides right arrow when scrolled to end" time="0.02">
+    </testcase>
+    <testcase classname="UIResourceCarousel handles UIResource actions" name="UIResourceCarousel handles UIResource actions" time="0.024">
+    </testcase>
+    <testcase classname="UIResourceCarousel applies correct dimensions to resource containers" name="UIResourceCarousel applies correct dimensions to resource containers" time="0.523">
+    </testcase>
+    <testcase classname="UIResourceCarousel shows correct gradient overlays based on scroll position" name="UIResourceCarousel shows correct gradient overlays based on scroll position" time="0.01">
+    </testcase>
+    <testcase classname="UIResourceCarousel cleans up event listeners on unmount" name="UIResourceCarousel cleans up event listeners on unmount" time="0.011">
+    </testcase>
+    <testcase classname="UIResourceCarousel renders with animation delays for each resource" name="UIResourceCarousel renders with animation delays for each resource" time="0.023">
+    </testcase>
+    <testcase classname="UIResourceCarousel memoizes component properly" name="UIResourceCarousel memoizes component properly" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="Virtual Scrolling Performance" errors="0" failures="1" skipped="0" timestamp="2025-09-26T02:58:02" time="3.921" tests="5">
+    <testcase classname="Virtual Scrolling Performance efficiently handles 1000 agents without rendering all DOM nodes" name="Virtual Scrolling Performance efficiently handles 1000 agents without rendering all DOM nodes" time="1.068">
+      <failure>Error: expect(received).toBeLessThan(expected)
+
+Expected: &lt; 650
+Received:   1049.4997000000003
+    at Object.toBeLessThan (C:\Users\USER\Desktop\stash\services\dev help\client\src\components\Agents\tests\VirtualScrollingPerformance.test.tsx:197:24)
+    at Promise.then.completed (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-circus\build\utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-circus\build\utils.js:231:10)
+    at _callCircusTest (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-circus\build\run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-circus\build\run.js:252:3)
+    at _runTestsForDescribeBlock (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-circus\build\run.js:126:9)
+    at _runTestsForDescribeBlock (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-circus\build\run.js:121:9)
+    at run (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-circus\build\run.js:71:3)
+    at runAndTransformResultsToJestFormat (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    at jestAdapter (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:74:19)
+    at runTestInternal (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\USER\Desktop\stash\services\dev help\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Virtual Scrolling Performance efficiently handles 5000 agents (stress test)" name="Virtual Scrolling Performance efficiently handles 5000 agents (stress test)" time="0.033">
+    </testcase>
+    <testcase classname="Virtual Scrolling Performance calculates correct number of virtual rows for different screen sizes" name="Virtual Scrolling Performance calculates correct number of virtual rows for different screen sizes" time="0.035">
+    </testcase>
+    <testcase classname="Virtual Scrolling Performance row renderer is called efficiently" name="Virtual Scrolling Performance row renderer is called efficiently" time="0.026">
+    </testcase>
+    <testcase classname="Virtual Scrolling Performance memory usage remains stable with large datasets" name="Virtual Scrolling Performance memory usage remains stable with large datasets" time="0.14">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:57:53" time="13.966" tests="3">
+    <testcase classname=" renders registration form" name=" renders registration form" time="3.208">
+    </testcase>
+    <testcase classname=" shows validation error messages" name=" shows validation error messages" time="0.825">
+    </testcase>
+    <testcase classname=" shows error message when registration fails" name=" shows error message when registration fails" time="1.06">
+    </testcase>
+  </testsuite>
+  <testsuite name="ConversationTag Utilities" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:08" time="0.503" tests="6">
+    <testcase classname="ConversationTag Utilities updateConversationTag updates the first tag correctly" name="ConversationTag Utilities updateConversationTag updates the first tag correctly" time="0.012">
+    </testcase>
+    <testcase classname="ConversationTag Utilities updates the third tag correctly" name="ConversationTag Utilities updates the third tag correctly" time="0.004">
+    </testcase>
+    <testcase classname="ConversationTag Utilities updates the order of other tags if the order of the tags is moving up" name="ConversationTag Utilities updates the order of other tags if the order of the tags is moving up" time="0.003">
+    </testcase>
+    <testcase classname="ConversationTag Utilities updates the order of other tags if the order of the tags is moving down" name="ConversationTag Utilities updates the order of other tags if the order of the tags is moving down" time="0.003">
+    </testcase>
+    <testcase classname="ConversationTag Utilities updates the order of other tags if new tag is added" name="ConversationTag Utilities updates the order of other tags if new tag is added" time="0.004">
+    </testcase>
+    <testcase classname="ConversationTag Utilities returns a new array for new tag if no tags exist" name="ConversationTag Utilities returns a new array for new tag if no tags exist" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="MemoryArtifacts" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:07" time="2.331" tests="12">
+    <testcase classname="MemoryArtifacts Error State Handling displays error styling when memory artifacts contain errors" name="MemoryArtifacts Error State Handling displays error styling when memory artifacts contain errors" time="0.086">
+    </testcase>
+    <testcase classname="MemoryArtifacts Error State Handling displays normal styling when no errors present" name="MemoryArtifacts Error State Handling displays normal styling when no errors present" time="0.062">
+    </testcase>
+    <testcase classname="MemoryArtifacts Error State Handling displays error message when errors are present" name="MemoryArtifacts Error State Handling displays error message when errors are present" time="0.008">
+    </testcase>
+    <testcase classname="MemoryArtifacts Error State Handling displays normal message when no errors are present" name="MemoryArtifacts Error State Handling displays normal message when no errors are present" time="0.011">
+    </testcase>
+    <testcase classname="MemoryArtifacts Memory Artifacts Filtering filters and passes only memory-type attachments to MemoryInfo" name="MemoryArtifacts Memory Artifacts Filtering filters and passes only memory-type attachments to MemoryInfo" time="0.041">
+    </testcase>
+    <testcase classname="MemoryArtifacts Memory Artifacts Filtering correctly identifies multiple error artifacts" name="MemoryArtifacts Memory Artifacts Filtering correctly identifies multiple error artifacts" time="0.038">
+    </testcase>
+    <testcase classname="MemoryArtifacts Collapse/Expand Functionality toggles memory info visibility on button click" name="MemoryArtifacts Collapse/Expand Functionality toggles memory info visibility on button click" time="0.068">
+    </testcase>
+    <testcase classname="MemoryArtifacts Collapse/Expand Functionality updates aria-expanded attribute correctly" name="MemoryArtifacts Collapse/Expand Functionality updates aria-expanded attribute correctly" time="0.056">
+    </testcase>
+    <testcase classname="MemoryArtifacts Edge Cases handles empty attachments array" name="MemoryArtifacts Edge Cases handles empty attachments array" time="0.004">
+    </testcase>
+    <testcase classname="MemoryArtifacts Edge Cases handles undefined attachments" name="MemoryArtifacts Edge Cases handles undefined attachments" time="0.008">
+    </testcase>
+    <testcase classname="MemoryArtifacts Edge Cases handles attachments with no memory artifacts" name="MemoryArtifacts Edge Cases handles attachments with no memory artifacts" time="0.003">
+    </testcase>
+    <testcase classname="MemoryArtifacts Edge Cases handles malformed memory artifacts gracefully" name="MemoryArtifacts Edge Cases handles malformed memory artifacts gracefully" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="VirtualizedAgentGrid" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:08" time="2.419" tests="5">
+    <testcase classname="VirtualizedAgentGrid renders virtual list container" name="VirtualizedAgentGrid renders virtual list container" time="0.516">
+    </testcase>
+    <testcase classname="VirtualizedAgentGrid displays agent cards in virtual rows" name="VirtualizedAgentGrid displays agent cards in virtual rows" time="0.019">
+    </testcase>
+    <testcase classname="VirtualizedAgentGrid calls onSelectAgent when agent card is clicked" name="VirtualizedAgentGrid calls onSelectAgent when agent card is clicked" time="0.022">
+    </testcase>
+    <testcase classname="VirtualizedAgentGrid shows loading spinner when loading" name="VirtualizedAgentGrid shows loading spinner when loading" time="0.013">
+    </testcase>
+    <testcase classname="VirtualizedAgentGrid has proper accessibility attributes" name="VirtualizedAgentGrid has proper accessibility attributes" time="0.06">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:05" time="6.286" tests="4">
+    <testcase classname=" renders plugin store dialog with plugins from the available plugins query and shows install/uninstall buttons based on user plugins" name=" renders plugin store dialog with plugins from the available plugins query and shows install/uninstall buttons based on user plugins" time="1.873">
+    </testcase>
+    <testcase classname=" Displays the plugin auth form when installing a plugin with auth" name=" Displays the plugin auth form when installing a plugin with auth" time="0.851">
+    </testcase>
+    <testcase classname=" allows the user to navigate between pages" name=" allows the user to navigate between pages" time="0.65">
+    </testcase>
+    <testcase classname=" allows the user to search for plugins" name=" allows the user to search for plugins" time="0.208">
+    </testcase>
+  </testsuite>
+  <testsuite name="CategoryTabs" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:09" time="3.192" tests="11">
+    <testcase classname="CategoryTabs renders provided categories" name="CategoryTabs renders provided categories" time="0.043">
+    </testcase>
+    <testcase classname="CategoryTabs handles loading state properly" name="CategoryTabs handles loading state properly" time="0.006">
+    </testcase>
+    <testcase classname="CategoryTabs highlights the active tab" name="CategoryTabs highlights the active tab" time="0.01">
+    </testcase>
+    <testcase classname="CategoryTabs calls onChange when a tab is clicked" name="CategoryTabs calls onChange when a tab is clicked" time="0.058">
+    </testcase>
+    <testcase classname="CategoryTabs handles promoted tab click correctly" name="CategoryTabs handles promoted tab click correctly" time="0.08">
+    </testcase>
+    <testcase classname="CategoryTabs handles all tab click correctly" name="CategoryTabs handles all tab click correctly" time="0.069">
+    </testcase>
+    <testcase classname="CategoryTabs shows inactive state for non-selected tabs" name="CategoryTabs shows inactive state for non-selected tabs" time="0.009">
+    </testcase>
+    <testcase classname="CategoryTabs renders with proper accessibility" name="CategoryTabs renders with proper accessibility" time="0.141">
+    </testcase>
+    <testcase classname="CategoryTabs handles keyboard navigation" name="CategoryTabs handles keyboard navigation" time="0.065">
+    </testcase>
+    <testcase classname="CategoryTabs shows empty state when categories prop is empty" name="CategoryTabs shows empty state when categories prop is empty" time="0.006">
+    </testcase>
+    <testcase classname="CategoryTabs maintains consistent ordering of categories" name="CategoryTabs maintains consistent ordering of categories" time="0.1">
+    </testcase>
+  </testsuite>
+  <testsuite name="VersionPanel" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:11" time="2.195" tests="4">
+    <testcase classname="VersionPanel renders panel UI and handles navigation" name="VersionPanel renders panel UI and handles navigation" time="0.07">
+    </testcase>
+    <testcase classname="VersionPanel VersionContent receives correct props" name="VersionPanel VersionContent receives correct props" time="0.008">
+    </testcase>
+    <testcase classname="VersionPanel handles data state variations" name="VersionPanel handles data state variations" time="0.042">
+    </testcase>
+    <testcase classname="VersionPanel memoizes agent data correctly" name="VersionPanel memoizes agent data correctly" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="cleanupPreset" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:13" time="0.631" tests="14">
+    <testcase classname="cleanupPreset chatGptLabel migration should migrate chatGptLabel to modelLabel when only chatGptLabel exists" name="cleanupPreset chatGptLabel migration should migrate chatGptLabel to modelLabel when only chatGptLabel exists" time="0.003">
+    </testcase>
+    <testcase classname="cleanupPreset chatGptLabel migration should prioritize modelLabel over chatGptLabel when both exist" name="cleanupPreset chatGptLabel migration should prioritize modelLabel over chatGptLabel when both exist" time="0.001">
+    </testcase>
+    <testcase classname="cleanupPreset chatGptLabel migration should keep modelLabel when only modelLabel exists" name="cleanupPreset chatGptLabel migration should keep modelLabel when only modelLabel exists" time="0.002">
+    </testcase>
+    <testcase classname="cleanupPreset chatGptLabel migration should handle preset without either label" name="cleanupPreset chatGptLabel migration should handle preset without either label" time="0.001">
+    </testcase>
+    <testcase classname="cleanupPreset chatGptLabel migration should handle empty chatGptLabel" name="cleanupPreset chatGptLabel migration should handle empty chatGptLabel" time="0.001">
+    </testcase>
+    <testcase classname="cleanupPreset chatGptLabel migration should not migrate empty string chatGptLabel when modelLabel exists" name="cleanupPreset chatGptLabel migration should not migrate empty string chatGptLabel when modelLabel exists" time="0.002">
+    </testcase>
+    <testcase classname="cleanupPreset presetOverride handling should apply presetOverride and then handle label migration" name="cleanupPreset presetOverride handling should apply presetOverride and then handle label migration" time="0.001">
+    </testcase>
+    <testcase classname="cleanupPreset presetOverride handling should handle label migration in presetOverride" name="cleanupPreset presetOverride handling should handle label migration in presetOverride" time="0.001">
+    </testcase>
+    <testcase classname="cleanupPreset error handling should handle undefined preset" name="cleanupPreset error handling should handle undefined preset" time="0.009">
+    </testcase>
+    <testcase classname="cleanupPreset error handling should handle preset with null endpoint" name="cleanupPreset error handling should handle preset with null endpoint" time="0.003">
+    </testcase>
+    <testcase classname="cleanupPreset error handling should handle preset with empty string endpoint" name="cleanupPreset error handling should handle preset with empty string endpoint" time="0.003">
+    </testcase>
+    <testcase classname="cleanupPreset normal preset properties should preserve all other preset properties" name="cleanupPreset normal preset properties should preserve all other preset properties" time="0.003">
+    </testcase>
+    <testcase classname="cleanupPreset normal preset properties should generate default title when title is missing" name="cleanupPreset normal preset properties should generate default title when title is missing" time="0.001">
+    </testcase>
+    <testcase classname="cleanupPreset normal preset properties should handle null presetId" name="cleanupPreset normal preset properties should handle null presetId" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Agent Utilities" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:13" time="0.572" tests="17">
+    <testcase classname="Agent Utilities getAgentAvatarUrl should return null for null agent" name="Agent Utilities getAgentAvatarUrl should return null for null agent" time="0.001">
+    </testcase>
+    <testcase classname="Agent Utilities getAgentAvatarUrl should return null for undefined agent" name="Agent Utilities getAgentAvatarUrl should return null for undefined agent" time="0">
+    </testcase>
+    <testcase classname="Agent Utilities getAgentAvatarUrl should return null for agent without avatar" name="Agent Utilities getAgentAvatarUrl should return null for agent without avatar" time="0">
+    </testcase>
+    <testcase classname="Agent Utilities getAgentAvatarUrl should return string avatar directly" name="Agent Utilities getAgentAvatarUrl should return string avatar directly" time="0.001">
+    </testcase>
+    <testcase classname="Agent Utilities getAgentAvatarUrl should extract filepath from object avatar" name="Agent Utilities getAgentAvatarUrl should extract filepath from object avatar" time="0">
+    </testcase>
+    <testcase classname="Agent Utilities getAgentAvatarUrl should return null for object avatar without filepath" name="Agent Utilities getAgentAvatarUrl should return null for object avatar without filepath" time="0">
+    </testcase>
+    <testcase classname="Agent Utilities renderAgentAvatar should render image when avatar URL exists" name="Agent Utilities renderAgentAvatar should render image when avatar URL exists" time="0.007">
+    </testcase>
+    <testcase classname="Agent Utilities renderAgentAvatar should render Bot icon fallback when no avatar" name="Agent Utilities renderAgentAvatar should render Bot icon fallback when no avatar" time="0.006">
+    </testcase>
+    <testcase classname="Agent Utilities renderAgentAvatar should apply different size classes" name="Agent Utilities renderAgentAvatar should apply different size classes" time="0.011">
+    </testcase>
+    <testcase classname="Agent Utilities renderAgentAvatar should apply custom className" name="Agent Utilities renderAgentAvatar should apply custom className" time="0.004">
+    </testcase>
+    <testcase classname="Agent Utilities renderAgentAvatar should handle showBorder option" name="Agent Utilities renderAgentAvatar should handle showBorder option" time="0.005">
+    </testcase>
+    <testcase classname="Agent Utilities getContactDisplayName should return null for null agent" name="Agent Utilities getContactDisplayName should return null for null agent" time="0.001">
+    </testcase>
+    <testcase classname="Agent Utilities getContactDisplayName should return null for undefined agent" name="Agent Utilities getContactDisplayName should return null for undefined agent" time="0.001">
+    </testcase>
+    <testcase classname="Agent Utilities getContactDisplayName should prioritize support_contact name" name="Agent Utilities getContactDisplayName should prioritize support_contact name" time="0.001">
+    </testcase>
+    <testcase classname="Agent Utilities getContactDisplayName should use authorName when support_contact name is missing" name="Agent Utilities getContactDisplayName should use authorName when support_contact name is missing" time="0.001">
+    </testcase>
+    <testcase classname="Agent Utilities getContactDisplayName should use support_contact email when both name and authorName are missing" name="Agent Utilities getContactDisplayName should use support_contact email when both name and authorName are missing" time="0.001">
+    </testcase>
+    <testcase classname="Agent Utilities getContactDisplayName should return null when no contact info is available" name="Agent Utilities getContactDisplayName should return null when no contact info is available" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="VersionContent" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:14" time="0.619" tests="3">
+    <testcase classname="VersionContent renders different UI states correctly" name="VersionContent renders different UI states correctly" time="0.026">
+    </testcase>
+    <testcase classname="VersionContent restore functionality works correctly" name="VersionContent restore functionality works correctly" time="0.005">
+    </testcase>
+    <testcase classname="VersionContent handles edge cases in data" name="VersionContent handles edge cases in data" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:06" time="7.79" tests="3">
+    <testcase classname=" renders login form" name=" renders login form" time="1.457">
+    </testcase>
+    <testcase classname=" calls loginUser.mutate on login" name=" calls loginUser.mutate on login" time="0.594">
+    </testcase>
+    <testcase classname=" Navigates to / on successful login" name=" Navigates to / on successful login" time="0.424">
+    </testcase>
+  </testsuite>
+  <testsuite name="MarketplaceProvider" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:14" time="0.712" tests="5">
+    <testcase classname="MarketplaceProvider provides correct marketplace context values" name="MarketplaceProvider provides correct marketplace context values" time="0.04">
+    </testcase>
+    <testcase classname="MarketplaceProvider creates ChatContext.Provider with correct structure" name="MarketplaceProvider creates ChatContext.Provider with correct structure" time="0.005">
+    </testcase>
+    <testcase classname="MarketplaceProvider renders children correctly" name="MarketplaceProvider renders children correctly" time="0.008">
+    </testcase>
+    <testcase classname="MarketplaceProvider provides stable context value (memoization)" name="MarketplaceProvider provides stable context value (memoization)" time="0.006">
+    </testcase>
+    <testcase classname="MarketplaceProvider provides minimal context without bloated functions" name="MarketplaceProvider provides minimal context without bloated functions" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="VersionItem" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:15" time="0.747" tests="10">
+    <testcase classname="VersionItem renders version number and timestamp" name="VersionItem renders version number and timestamp" time="0.077">
+    </testcase>
+    <testcase classname="VersionItem active version badge and no restore button when active" name="VersionItem active version badge and no restore button when active" time="0.007">
+    </testcase>
+    <testcase classname="VersionItem restore button and no active badge when not active" name="VersionItem restore button and no active badge when not active" time="0.006">
+    </testcase>
+    <testcase classname="VersionItem restore confirmation flow - confirmed" name="VersionItem restore confirmation flow - confirmed" time="0.01">
+    </testcase>
+    <testcase classname="VersionItem restore confirmation flow - canceled" name="VersionItem restore confirmation flow - canceled" time="0.008">
+    </testcase>
+    <testcase classname="VersionItem handles invalid timestamp" name="VersionItem handles invalid timestamp" time="0.005">
+    </testcase>
+    <testcase classname="VersionItem handles missing timestamps" name="VersionItem handles missing timestamps" time="0.005">
+    </testcase>
+    <testcase classname="VersionItem prefers updatedAt over createdAt when both exist" name="VersionItem prefers updatedAt over createdAt when both exist" time="0.005">
+    </testcase>
+    <testcase classname="VersionItem falls back to createdAt when updatedAt is missing" name="VersionItem falls back to createdAt when updatedAt is missing" time="0.007">
+    </testcase>
+    <testcase classname="VersionItem handles empty version object" name="VersionItem handles empty version object" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="getEndpointField" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:16" time="0.655" tests="11">
+    <testcase classname="getEndpointField returns undefined if endpointsConfig is undefined" name="getEndpointField returns undefined if endpointsConfig is undefined" time="0.004">
+    </testcase>
+    <testcase classname="getEndpointField returns undefined if endpoint is null" name="getEndpointField returns undefined if endpoint is null" time="0.01">
+    </testcase>
+    <testcase classname="getEndpointField returns undefined if endpoint is undefined" name="getEndpointField returns undefined if endpoint is undefined" time="0.001">
+    </testcase>
+    <testcase classname="getEndpointField returns the correct value for a valid endpoint and property" name="getEndpointField returns the correct value for a valid endpoint and property" time="0.001">
+    </testcase>
+    <testcase classname="getEndpointField returns undefined for a valid endpoint but an invalid property" name="getEndpointField returns undefined for a valid endpoint but an invalid property" time="0.001">
+    </testcase>
+    <testcase classname="getEndpointField returns the correct value for a non-enum endpoint and valid property" name="getEndpointField returns the correct value for a non-enum endpoint and valid property" time="0.001">
+    </testcase>
+    <testcase classname="getEndpointField returns undefined for a non-enum endpoint with an invalid property" name="getEndpointField returns undefined for a non-enum endpoint with an invalid property" time="0">
+    </testcase>
+    <testcase classname="getEndpointsFilter returns an empty object if endpointsConfig is undefined" name="getEndpointsFilter returns an empty object if endpointsConfig is undefined" time="0">
+    </testcase>
+    <testcase classname="getEndpointsFilter returns a filter object based on endpointsConfig" name="getEndpointsFilter returns a filter object based on endpointsConfig" time="0.001">
+    </testcase>
+    <testcase classname="getAvailableEndpoints returns available endpoints based on filter and config" name="getAvailableEndpoints returns available endpoints based on filter and config" time="0.002">
+    </testcase>
+    <testcase classname="mapEndpoints returns sorted available endpoints" name="mapEndpoints returns sorted available endpoints" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="useAgentCategories" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:17" time="0.574" tests="1">
+    <testcase classname="useAgentCategories should return processed categories with correct structure" name="useAgentCategories should return processed categories with correct structure" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="SearchBar" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:15" time="2.409" tests="12">
+    <testcase classname="SearchBar renders with correct placeholder" name="SearchBar renders with correct placeholder" time="0.107">
+    </testcase>
+    <testcase classname="SearchBar displays the provided value" name="SearchBar displays the provided value" time="0.014">
+    </testcase>
+    <testcase classname="SearchBar calls onSearch when user types" name="SearchBar calls onSearch when user types" time="0.114">
+    </testcase>
+    <testcase classname="SearchBar shows clear button when there is text" name="SearchBar shows clear button when there is text" time="0.05">
+    </testcase>
+    <testcase classname="SearchBar does not show clear button when text is empty" name="SearchBar does not show clear button when text is empty" time="0.007">
+    </testcase>
+    <testcase classname="SearchBar clears search when clear button is clicked" name="SearchBar clears search when clear button is clicked" time="0.08">
+    </testcase>
+    <testcase classname="SearchBar updates internal state when value prop changes" name="SearchBar updates internal state when value prop changes" time="0.015">
+    </testcase>
+    <testcase classname="SearchBar has proper accessibility attributes" name="SearchBar has proper accessibility attributes" time="0.018">
+    </testcase>
+    <testcase classname="SearchBar applies custom className" name="SearchBar applies custom className" time="0.015">
+    </testcase>
+    <testcase classname="SearchBar prevents form submission on clear button click" name="SearchBar prevents form submission on clear button click" time="0.063">
+    </testcase>
+    <testcase classname="SearchBar handles rapid typing correctly" name="SearchBar handles rapid typing correctly" time="0.098">
+    </testcase>
+    <testcase classname="SearchBar maintains focus after clear button click" name="SearchBar maintains focus after clear button click" time="0.12">
+    </testcase>
+  </testsuite>
+  <testsuite name="imageResize utility" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:17" time="0.435" tests="6">
+    <testcase classname="imageResize utility supportsClientResize should return true when all required APIs are available" name="imageResize utility supportsClientResize should return true when all required APIs are available" time="0.003">
+    </testcase>
+    <testcase classname="imageResize utility supportsClientResize should return false when HTMLCanvasElement is not available" name="imageResize utility supportsClientResize should return false when HTMLCanvasElement is not available" time="0">
+    </testcase>
+    <testcase classname="imageResize utility shouldResizeImage should return true for large image files" name="imageResize utility shouldResizeImage should return true for large image files" time="0.003">
+    </testcase>
+    <testcase classname="imageResize utility shouldResizeImage should return false for small image files" name="imageResize utility shouldResizeImage should return false for small image files" time="0.001">
+    </testcase>
+    <testcase classname="imageResize utility shouldResizeImage should return false for non-image files" name="imageResize utility shouldResizeImage should return false for non-image files" time="0.002">
+    </testcase>
+    <testcase classname="imageResize utility shouldResizeImage should return false for GIF files" name="imageResize utility shouldResizeImage should return false for GIF files" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="ApiKeyDialog" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:12" time="5.661" tests="8">
+    <testcase classname="ApiKeyDialog shows all dropdowns and both reranker fields when no config is set" name="ApiKeyDialog shows all dropdowns and both reranker fields when no config is set" time="1.34">
+    </testcase>
+    <testcase classname="ApiKeyDialog shows static text for provider and only provider input if provider is set" name="ApiKeyDialog shows static text for provider and only provider input if provider is set" time="0.434">
+    </testcase>
+    <testcase classname="ApiKeyDialog shows only Jina reranker field if rerankerType is set to jina" name="ApiKeyDialog shows only Jina reranker field if rerankerType is set to jina" time="0.367">
+    </testcase>
+    <testcase classname="ApiKeyDialog shows only Cohere reranker field if rerankerType is set to cohere" name="ApiKeyDialog shows only Cohere reranker field if rerankerType is set to cohere" time="0.354">
+    </testcase>
+    <testcase classname="ApiKeyDialog shows documentation link for the visible reranker" name="ApiKeyDialog shows documentation link for the visible reranker" time="0.48">
+    </testcase>
+    <testcase classname="ApiKeyDialog does not render provider section if SYSTEM_DEFINED" name="ApiKeyDialog does not render provider section if SYSTEM_DEFINED" time="0.29">
+    </testcase>
+    <testcase classname="ApiKeyDialog does not render scraper section if SYSTEM_DEFINED" name="ApiKeyDialog does not render scraper section if SYSTEM_DEFINED" time="0.264">
+    </testcase>
+    <testcase classname="ApiKeyDialog does not render reranker section if SYSTEM_DEFINED" name="ApiKeyDialog does not render reranker section if SYSTEM_DEFINED" time="0.297">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:14" time="3.474" tests="3">
+    <testcase classname=" renders login form" name=" renders login form" time="0.248">
+    </testcase>
+    <testcase classname=" submits login form" name=" submits login form" time="0.358">
+    </testcase>
+    <testcase classname=" displays validation error messages" name=" displays validation error messages" time="0.198">
+    </testcase>
+  </testsuite>
+  <testsuite name="i18next translation tests" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:18" time="0.576" tests="6">
+    <testcase classname="i18next translation tests should return the correct translation for a valid key in English" name="i18next translation tests should return the correct translation for a valid key in English" time="0.002">
+    </testcase>
+    <testcase classname="i18next translation tests should return the correct translation for a valid key in French" name="i18next translation tests should return the correct translation for a valid key in French" time="0.001">
+    </testcase>
+    <testcase classname="i18next translation tests should return the correct translation for a valid key in Spanish" name="i18next translation tests should return the correct translation for a valid key in Spanish" time="0.001">
+    </testcase>
+    <testcase classname="i18next translation tests should fallback to English for an invalid language code" name="i18next translation tests should fallback to English for an invalid language code" time="0.003">
+    </testcase>
+    <testcase classname="i18next translation tests should return the key itself for an invalid key" name="i18next translation tests should return the key itself for an invalid key" time="0.001">
+    </testcase>
+    <testcase classname="i18next translation tests should correctly format placeholders in the translation" name="i18next translation tests should correctly format placeholders in the translation" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="SourcesErrorBoundary - NEW COMPONENT test" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:18" time="1.232" tests="3">
+    <testcase classname="SourcesErrorBoundary - NEW COMPONENT test should render children when there is no error" name="SourcesErrorBoundary - NEW COMPONENT test should render children when there is no error" time="0.014">
+    </testcase>
+    <testcase classname="SourcesErrorBoundary - NEW COMPONENT test should render default error UI when error occurs" name="SourcesErrorBoundary - NEW COMPONENT test should render default error UI when error occurs" time="0.601">
+    </testcase>
+    <testcase classname="SourcesErrorBoundary - NEW COMPONENT test should reload page when refresh button is clicked" name="SourcesErrorBoundary - NEW COMPONENT test should reload page when refresh button is clicked" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="PluginPagination" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:17" time="2.93" tests="5">
+    <testcase classname="PluginPagination should render the previous button as enabled when not on the first page" name="PluginPagination should render the previous button as enabled when not on the first page" time="0.286">
+    </testcase>
+    <testcase classname="PluginPagination should call onChangePage with the previous page number when the previous button is clicked" name="PluginPagination should call onChangePage with the previous page number when the previous button is clicked" time="0.105">
+    </testcase>
+    <testcase classname="PluginPagination should call onChangePage with the next page number when the next button is clicked" name="PluginPagination should call onChangePage with the next page number when the next button is clicked" time="0.115">
+    </testcase>
+    <testcase classname="PluginPagination should render the page numbers" name="PluginPagination should render the page numbers" time="0.233">
+    </testcase>
+    <testcase classname="PluginPagination should call onChangePage with the correct page number when a page number button is clicked" name="PluginPagination should call onChangePage with the correct page number when a page number button is clicked" time="0.109">
+    </testcase>
+  </testsuite>
+  <testsuite name="PluginStoreItem" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:18" time="2.816" tests="3">
+    <testcase classname="PluginStoreItem renders the plugin name and description" name="PluginStoreItem renders the plugin name and description" time="0.236">
+    </testcase>
+    <testcase classname="PluginStoreItem calls onInstall when the install button is clicked" name="PluginStoreItem calls onInstall when the install button is clicked" time="0.307">
+    </testcase>
+    <testcase classname="PluginStoreItem calls onUninstall when the uninstall button is clicked" name="PluginStoreItem calls onUninstall when the uninstall button is clicked" time="0.135">
+    </testcase>
+  </testsuite>
+  <testsuite name="PluginAuthForm" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:21" time="2.879" tests="2">
+    <testcase classname="PluginAuthForm renders the form with the correct fields" name="PluginAuthForm renders the form with the correct fields" time="0.199">
+    </testcase>
+    <testcase classname="PluginAuthForm calls the onSubmit function with the form data when submitted" name="PluginAuthForm calls the onSubmit function with the form data when submitted" time="0.356">
+    </testcase>
+  </testsuite>
+  <testsuite name="AutoTranscribeAudioSwitch" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:22" time="2.3" tests="2">
+    <testcase classname="AutoTranscribeAudioSwitch renders correctly" name="AutoTranscribeAudioSwitch renders correctly" time="0.229">
+    </testcase>
+    <testcase classname="AutoTranscribeAudioSwitch calls onCheckedChange when the switch is toggled" name="AutoTranscribeAudioSwitch calls onCheckedChange when the switch is toggled" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="ThemeSelector" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:19" time="7.5" tests="2">
+    <testcase classname="ThemeSelector renders correctly" name="ThemeSelector renders correctly" time="0.678">
+    </testcase>
+    <testcase classname="ThemeSelector calls onChange when the select value changes" name="ThemeSelector calls onChange when the select value changes" time="0.477">
+    </testcase>
+  </testsuite>
+  <testsuite name="CloudBrowserVoicesSwitch" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:25" time="2.47" tests="2">
+    <testcase classname="CloudBrowserVoicesSwitch renders correctly" name="CloudBrowserVoicesSwitch renders correctly" time="0.256">
+    </testcase>
+    <testcase classname="CloudBrowserVoicesSwitch calls onCheckedChange when the switch is toggled" name="CloudBrowserVoicesSwitch calls onCheckedChange when the switch is toggled" time="0.069">
+    </testcase>
+  </testsuite>
+  <testsuite name="LangSelector" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:18" time="9.157" tests="2">
+    <testcase classname="LangSelector renders correctly" name="LangSelector renders correctly" time="0.764">
+    </testcase>
+    <testcase classname="LangSelector calls onChange when the select value changes" name="LangSelector calls onChange when the select value changes" time="1.438">
+    </testcase>
+  </testsuite>
+  <testsuite name="AutomaticPlaybackSwitch" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:25" time="2.334" tests="2">
+    <testcase classname="AutomaticPlaybackSwitch renders correctly" name="AutomaticPlaybackSwitch renders correctly" time="0.223">
+    </testcase>
+    <testcase classname="AutomaticPlaybackSwitch calls onCheckedChange when the switch is toggled" name="AutomaticPlaybackSwitch calls onCheckedChange when the switch is toggled" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="ConversationModeSwitch" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:27" time="2.449" tests="2">
+    <testcase classname="ConversationModeSwitch renders correctly" name="ConversationModeSwitch renders correctly" time="0.234">
+    </testcase>
+    <testcase classname="ConversationModeSwitch calls onCheckedChange when the switch is toggled" name="ConversationModeSwitch calls onCheckedChange when the switch is toggled" time="0.03">
+    </testcase>
+  </testsuite>
+  <testsuite name="TextToSpeechSwitch" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:28" time="2.243" tests="2">
+    <testcase classname="TextToSpeechSwitch renders correctly" name="TextToSpeechSwitch renders correctly" time="0.16">
+    </testcase>
+    <testcase classname="TextToSpeechSwitch calls onCheckedChange when the switch is toggled" name="TextToSpeechSwitch calls onCheckedChange when the switch is toggled" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="SpeechToTextSwitch" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:28" time="2.31" tests="2">
+    <testcase classname="SpeechToTextSwitch renders correctly" name="SpeechToTextSwitch renders correctly" time="0.211">
+    </testcase>
+    <testcase classname="SpeechToTextSwitch calls onCheckedChange when the switch is toggled" name="SpeechToTextSwitch calls onCheckedChange when the switch is toggled" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="CacheTTSSwitch" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:29" time="2.307" tests="2">
+    <testcase classname="CacheTTSSwitch renders correctly" name="CacheTTSSwitch renders correctly" time="0.189">
+    </testcase>
+    <testcase classname="CacheTTSSwitch calls onCheckedChange when the switch is toggled" name="CacheTTSSwitch calls onCheckedChange when the switch is toggled" time="0.047">
+    </testcase>
+  </testsuite>
+  <testsuite name="getMemories" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:31" time="0.457" tests="1">
+    <testcase classname="getMemories should fetch memories from /api/memories" name="getMemories should fetch memories from /api/memories" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="Button" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:31" time="1.486" tests="2">
+    <testcase classname="Button renders with the correct type and children" name="Button renders with the correct type and children" time="0.032">
+    </testcase>
+    <testcase classname="Button calls onClick when clicked" name="Button calls onClick when clicked" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="Regenerate" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:31" time="1.981" tests="2">
+    <testcase classname="Regenerate should render the Regenerate button" name="Regenerate should render the Regenerate button" time="0.114">
+    </testcase>
+    <testcase classname="Regenerate should call onClick when the button is clicked" name="Regenerate should call onClick when the button is clicked" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="Stop" errors="0" failures="0" skipped="0" timestamp="2025-09-26T02:58:32" time="2.064" tests="2">
+    <testcase classname="Stop should render the Stop button" name="Stop should render the Stop button" time="0.154">
+    </testcase>
+    <testcase classname="Stop should call onClick when the button is clicked" name="Stop should call onClick when the button is clicked" time="0.009">
+    </testcase>
+  </testsuite>
+</testsuites>
